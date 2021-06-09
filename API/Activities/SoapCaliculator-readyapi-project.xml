@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="668d0ac9-6f70-450b-9898-653e81b5d6cd" created="3.8.1" activeEnvironment="Default environment" name="SoapCaliculator" updated="3.8.1 2021-05-25T17:56:21Z" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="668d0ac9-6f70-450b-9898-653e81b5d6cd" created="3.8.1" activeEnvironment="Default environment" name="SoapCaliculator" updated="3.8.1 2021-05-25T17:56:21Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
   <con:interface xsi:type="con:WsdlInterface" id="a411ab6f-5038-4144-9b6c-3848b1b60896" wsaVersion="NONE" name="CalculatorSoap12" type="wsdl" bindingName="{http://tempuri.org/}CalculatorSoap12" soapVersion="1_2" anonymous="optional" definition="http://www.dneonline.com/calculator.asmx?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <con:settings/>
@@ -222,6 +222,10 @@
       </tem:Add>\r
    </soap:Body>\r
 </soap:Envelope>]]></con:request>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalculatorSoap/AddRequest"/>
       </con:call>
     </con:operation>
@@ -240,6 +244,10 @@
       </tem:Divide>\r
    </soap:Body>\r
 </soap:Envelope>]]></con:request>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalculatorSoap/DivideRequest"/>
       </con:call>
     </con:operation>
@@ -258,6 +266,10 @@
       </tem:Multiply>\r
    </soap:Body>\r
 </soap:Envelope>]]></con:request>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalculatorSoap/MultiplyRequest"/>
       </con:call>
     </con:operation>
@@ -276,6 +288,10 @@
       </tem:Subtract>\r
    </soap:Body>\r
 </soap:Envelope>]]></con:request>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CalculatorSoap/SubtractRequest"/>
       </con:call>
     </con:operation>
@@ -301,6 +317,10 @@
       </tem:Add>\r
    </soapenv:Body>\r
 </soapenv:Envelope>]]></con:request>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/Add"/>
       </con:call>
     </con:operation>
@@ -319,6 +339,10 @@
       </tem:Divide>\r
    </soapenv:Body>\r
 </soapenv:Envelope>]]></con:request>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/Divide"/>
       </con:call>
     </con:operation>
@@ -337,6 +361,10 @@
       </tem:Multiply>\r
    </soapenv:Body>\r
 </soapenv:Envelope>]]></con:request>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/Multiply"/>
       </con:call>
     </con:operation>
@@ -355,6 +383,10 @@
       </tem:Subtract>\r
    </soapenv:Body>\r
 </soapenv:Envelope>]]></con:request>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/Subtract"/>
       </con:call>
     </con:operation>

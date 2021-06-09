@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="b25d115d-d26c-4dde-b5d3-8d12d3b3aa68" created="3.8.1" activeEnvironment="Default environment" name="PetStore Rest" updated="3.8.1 2021-05-25T17:56:21Z" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="b25d115d-d26c-4dde-b5d3-8d12d3b3aa68" created="3.8.1" activeEnvironment="Default environment" name="PetStore Rest" updated="3.8.1 2021-05-25T17:56:21Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
   <con:interface xsi:type="con:RestService" id="5f5675ee-9167-4c41-80f7-d4016a423ed3" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://petstore.swagger.io" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <con:settings/>
@@ -36,6 +36,7 @@
           <con:request/>
           <con:originalUri>https://petstore.swagger.io/v2/pet/findByStatus</con:originalUri>
           <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
             <con:authType>No Authorization</con:authType>
           </con:credentials>
           <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
@@ -78,6 +79,7 @@
           <con:request/>
           <con:originalUri>https://petstore.swagger.io/v2/pet</con:originalUri>
           <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
             <con:authType>No Authorization</con:authType>
           </con:credentials>
           <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
@@ -92,6 +94,7 @@
           <con:endpoint>https://petstore.swagger.io</con:endpoint>
           <con:request/>
           <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
             <con:authType>No Authorization</con:authType>
           </con:credentials>
           <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>

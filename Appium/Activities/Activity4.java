@@ -64,7 +64,7 @@ public class Activity4 {
         Assert.assertTrue(mobileCard.isDisplayed());
         
         String contactName = driver.findElementById("large_title").getText();
-        Assert.assertEquals(contactName, "Aaditya Varma");
+        Assert.assertEquals(contactName, "Lavanya Grandhi");
     }
 
     @AfterClass
